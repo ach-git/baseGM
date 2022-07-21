@@ -10,5 +10,5 @@ ensure baseGM
 ```
 
 ### Credits:
-[ach-git](https://github.com/ach-git)
+[ach-git](https://github.com/ach-git)<br>
 [OXmysql](https://github.com/overextended/oxmysql)
