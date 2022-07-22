@@ -1,3 +1,3 @@
 GM:handleEvent("playerSpawned", function()
-    GM.Utils:notify("Player spawned")
+    GM.Utils:showNotification(("Hello %s, welcome to %s!"):format(GetPlayerName(PlayerPedId()), GMConfig.gmName))
 end)

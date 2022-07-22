@@ -13,7 +13,7 @@ setmetatable(GMPlayer, {
         self.id = playerId
 
         self.license = GM.Utils:getLicense(self.id)
-        self.name = GetPlayerName(self.id)
+        self.pseudo = GetPlayerName(self.id)
 
         GM.SQL:single("SELECT * FROM users WHERE license = @license", {
             ["@license"] = self.license,
@@ -57,8 +57,8 @@ end
 --- getName
 ---@return string
 ---@public
-function GMPlayer:getName()
-    return self.name
+function GMPlayer:getPseudo()
+    return self.pseudo
 end
 
 --- getLicense

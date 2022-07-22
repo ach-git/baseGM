@@ -26,6 +26,14 @@ function GMPlayerManager:getPlayer(playerID)
     return GMPlayerManager.list[playerID]
 end
 
+---playerExists
+---@param playerID table
+---@return table
+---@public
+function GMPlayerManager:playerExists(playerID)
+    return (GMPlayerManager.list[playerID] ~= nil)
+end
+
 ---getPlayers
 ---@param playerID table
 ---@return table
