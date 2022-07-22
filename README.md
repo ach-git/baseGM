@@ -21,5 +21,5 @@ ensure baseGM
 
 ### Credits:
 Creations of the gamemode: [ach-git](https://github.com/ach-git)<br>
-Creations of MYSQL lib: [OXmysql](https://github.com/overextended/oxmysql)
+Creations of MYSQL lib: [OXmysql](https://github.com/overextended/oxmysql)<br>
 Creations of the RageUI: https://github.com/ImBaphomettt/RageUI
